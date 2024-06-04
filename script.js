@@ -3,9 +3,6 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-
-
-
 function menueAnimation(){
     var menu = document.querySelector("nav h3")
 var navimg = document.querySelector("nav img")
@@ -31,9 +28,6 @@ function loaderAnimation(){
     },4000)
     
 }
-
-
-
 menueAnimation()
 loaderAnimation()
 
