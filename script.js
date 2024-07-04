@@ -39,10 +39,12 @@ loaderAnimation()
 
 
 
-
-
-
-
-
-
-
+document.querySelectorAll('.timeline-entry').forEach(entry => {
+    entry.addEventListener('click', function() {
+        const projectId = this.getAttribute('data-project');
+        const projectNode = document.getElementById(projectId);
+        
+        // Toggle active class to show/hide project details
+        projectNode.classList.toggle('active');
+    });
+});
