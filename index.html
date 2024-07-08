@@ -26,8 +26,8 @@
             <nav>
                 <img src="./resources/DoneDone.png" alt="LOGO">
                 <div class="nav-2">
-                    <h4><a href="#">Work</a></h4>
-                    <h4><a href="#">About</a></h4>
+                    <h4><a href="#projects">PROJECTS</a></h4>
+                    <h4><a id="resumeLink" href="#">RESUME</a></h4>
                     <h4><a href="./form/Gform.html">Contact</a></h4>
                 </div>
                 <h3>Menu</h3>
@@ -106,7 +106,7 @@
             crossorigin="anonymous" />
 
 <div class="projects-div">
-    <h1>PROJECTS</h1>
+    <a name="projects"><h1>PROJECTS</h1></a>
 </div>
 
         <div class="project-section">
@@ -119,43 +119,43 @@
                                 <i class="fas fa-clock">Java FX</i> <!-- Example icon using Font Awesome -->
                             </div>
                             <div class="timeline-content">
-                                <h3><i class="fas fa-code"></i> Project 1</h3>
-                                <p>Description of Project 1 goes here. Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.</p>
+                                <h3><i class="fas fa-code">.</i></h3>
+                                <p>This Project is made to get Large amount of data for Analysis.</p>
+                                <br>
+                                <p><b>CLICK TO SEE DETAILS</b></p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-entry" data-project="project2">
                             <div class="timeline-date">2024</div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-clock">Arduino</i> <!-- Example icon using Font Awesome -->
+                            </div>
                             <div class="timeline-content">
-                                <h3><i class="fas fa-chart-bar"></i> Project 2</h3>
-                                <p>Description of Project 2 goes here. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco.</p>
+                                <h3><i class="fas fa-chart-bar"></i>.</h3>
+                                <p>This project Solves the problem of blind and deaf people from lower income background.</p>
+                                <br>
+                                <p><b>CLICK TO SEE DETAILS</b></p>
                             </div>
                         </div>
                     </li>
                     <!-- Add more timeline entries as needed -->
                     <li>
                         <div class="timeline-entry" data-project="project3">
-                            <div class="timeline-date">2025</div>
+                            <div class="timeline-date">2024</div>
+                            <div class="timeline-icon">
+                                <i class="fas fa-clock">RESTful API Spring</i> <!-- Example icon using Font Awesome -->
+                            </div>
                             <div class="timeline-content">
-                                <h3><i class="fas fa-laptop-code"></i> Project 3</h3>
-                                <p>Description of Project 3 goes here. Suspendisse potenti. Donec accumsan nisl sed leo
-                                    dictum tempor.</p>
+                                <h3><i class="fas fa-laptop-code"></i>.</h3>
+                                <p>This project helps new springboot developers to understand how a todo RESTful API can be made in Springboot.</p>
+                                <br>
+                                <p><b>CLICK TO SEE DETAILS</b></p>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="timeline-entry" data-project="project4">
-                            <div class="timeline-date">2026</div>
-                            <div class="timeline-content">
-                                <h3><i class="fas fa-database"></i> Project 4</h3>
-                                <p>Description of Project 4 goes here. Phasellus non gravida arcu, vel vehicula odio.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
+                   
                     <!-- Add more timeline entries as needed -->
                 </ul>
             </div>
@@ -193,31 +193,24 @@
                 <!-- Add more project nodes as needed -->
                 <div class="project-node" id="project3">
                     <div class="project-logo">
-                        <img src="path/to/project3-logo.png" alt="Project 3 Logo">
+                        <img src="resources\springbootLogo.jpg" alt="Project 3 Logo">
                     </div>
                     <div class="project-details">
-                        <div class="project-title">Project 3</div>
+                        <div class="project-title">Project</div>
                         <div class="project-description">
-                            <p>Description of Project 3 goes here. Suspendisse potenti. Donec accumsan nisl sed leo
-                                dictum tempor.</p>
+                            <p>This project is a RESTful Todo Application using Spring MVC framework.
+                                <br>Features:<br>
+                                <b>CRUD Operations</b> <br>
+                                <b>REST API</b> <br>
+                                <b>Database Integration</b><br>
+                                <b>Validation and Exception Handling</b><br>
+                                <b><i>Technologies Used:</i></b> Java, Spring MVC, Spring Boot, Hibernate, MySQL, REST API, Postman (for testing).</p>
                             <p>Technologies used: Python, Django, PostgreSQL.</p>
                         </div>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/Its-Rawat/ResumeSpringbootRepo">View Project</a>
                     </div>
                 </div>
-                <div class="project-node" id="project4">
-                    <div class="project-logo">
-                        <img src="path/to/project4-logo.png" alt="Project 4 Logo">
-                    </div>
-                    <div class="project-details">
-                        <div class="project-title">Project 4</div>
-                        <div class="project-description">
-                            <p>Description of Project 4 goes here. Phasellus non gravida arcu, vel vehicula odio.</p>
-                            <p>Technologies used: Java, Spring Boot, MySQL.</p>
-                        </div>
-                        <a href="#">View Project</a>
-                    </div>
-                </div>
+             
                 <!-- Add more project nodes as needed -->
             </div>
         </div>
