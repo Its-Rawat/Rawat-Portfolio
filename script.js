@@ -48,3 +48,21 @@ document.querySelectorAll('.timeline-entry').forEach(entry => {
         projectNode.classList.toggle('active');
     });
 });
+
+
+// Download resume link
+document.getElementById('resumeLink').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const a = document.createElement('a');
+
+    a.href = 'resources\Aditya_Rawat.pdf';
+
+    a.download = 'resources\Aditya_Rawat.pdf';
+
+    document.body.appendChild(a);
+
+    a.click();
+
+    document.body.removeChild(a);
+});
